@@ -176,12 +176,28 @@
 
 	  postRequest.onreadystatechange = function() { // Call a function when the state changes.
 	      if (this.readyState === XMLHttpRequest.DONE && this.status === 200) {
-		  console.log(postRequest.responseText);
 	      }
 	  }
 
 	  const email = $('#email-text').val();
-	  console.log(email);
+	  postRequest.send("email=" + email);
+	  $('#email-text').val('');
+      });
+
+      $('#button-submit2').click(function(e){
+	  e.preventDefault();
+	  var postRequest = new XMLHttpRequest();
+	  postRequest.open("POST", 'http://swolytics.herokuapp.com/email/', true);
+	  
+	  //Send the proper header information along with the request
+	  postRequest.setRequestHeader("Content-Type", "application/x-www-form-urlencoded");
+
+	  postRequest.onreadystatechange = function() { // Call a function when the state changes.
+	      if (this.readyState === XMLHttpRequest.DONE && this.status === 200) {
+	      }
+	  }
+
+	  const email = $('#email-text2').val();
 	  postRequest.send("email=" + email);
 	  $('#email-text').val('');
       });
