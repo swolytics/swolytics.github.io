@@ -31,7 +31,7 @@
                     <div class="col-xl-6">
                         <div class="text-center text-white">
                             <!-- Page heading-->
-                            <h1 class="mb-5">If you could increase customer rention with a click, would you?</h1>
+                            <h1 class="mb-5">Strength training made fun</h1>
                             <!-- Signup form-->
                             <form>
                                 <div class="input-group input-group-lg">
@@ -39,9 +39,6 @@
                                     <button class="btn btn-primary" id="button-submit" type="submit">Sign up!</button>
                                 </div>
                             </form>
-			    <br>
-			    <a class="btn btn-primary disabled" href="#">For Gym Owners</a>
-			    <a class="btn btn-primary" href="gymgoers.html">For Gym Goers</a>
                         </div>
                     </div>
                 </div>
@@ -52,40 +49,12 @@
             <div class="container-fluid p-0">
                 <div class="row g-0">
                     <div class="col-lg-6 order-lg-1 my-auto showcase-text">
-                        <h2>The Problem</h2>
-                        <p class="lead mb-2">If you had a magic wand, how would you use it at your gym? That's right, increase customer retention. With over half of gym memberships canceled within the first year, you might have tried a million different ways to increase the retention rate, but many gym goers give the same answer as to why they quit: </p>
-			<blockquote class="blockquote mb-2">
-			  <p class="mb-2">"Strength training is simply boring"</p>
-			  <footer class="blockquote-footer">One of about 32 million gym goers that quit every year</footer>
-			</blockquote>
-
-			<p class="lead mb-0">Our goal is to be that magic wand</p>
+                        <h2>What it is</h2>
+                        <p class="lead mb-0">Through a hardware attachment, strength equipment can be made to automatically track your members workouts and fitness goals while also providing challenges, achievements, and competetion along the way, all viewable from your phone</p>
                     </div>
                     <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('assets/img/bg-showcase-1.jpg')"></div>
                 </div>
 	</section>	
-        <!-- Image Showcases-->
-        <section class="showcase">
-                <div class="row g-0">
-                    <div class="col-lg-6 my-auto showcase-text">
-                        <h2>The Solution</h2>
-                        <p class="lead mb-0">Strength training should be something your members look forward to and should be as fun as playing a sport. Through a hardware attachment, strength equipment can be made to automatically track your member's workouts and fitness goals for them while also providing challenges, achievements, and competetion along the way, all viewable from their phone </p>
-			<p class="lead mb-0">
-			  The best part: <em>It works with the equipment you already have</em>. No need to buy tens of thousands of dollars worth of new equipment
-			</p>
-                    </div>
-                    <div class="col-lg-6 text-white showcase-img" style="background-image: url('assets/img/bg-showcase-2.jpg')"></div>
-                </div>
-                <div class="row g-0">
-                    <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('assets/img/bg-showcase-3.jpg')"></div>
-                    <div class="col-lg-6 order-lg-1 my-auto showcase-text">
-                        <h2>New Streams of Revenue</h2>
-                        <p class="lead mb-0">Our equipment even integrates virtualized classes, so that those that can't afford PTs now can </p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
         <!-- Icons Grid-->
         <section class="features-icons bg-light text-center">
             <div class="container">
@@ -93,28 +62,45 @@
                     <div class="col-lg-4">
                         <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
                             <div class="features-icons-icon d-flex"><i class="bi-bricks m-auto text-primary"></i></div>
-                            <h3>Profitable</h3>
-                            <p class="lead mb-0">By increasing retention and providing new recurring streams of revenue, you'll be happier than ever</p>
+                            <h3>Accountability</h3>
+                            <p class="lead mb-0">Have the accountability of a PT without the cost</p>
                         </div>
                     </div>
                     <div class="col-lg-4">
                         <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
                             <div class="features-icons-icon d-flex"><i class="bi-layers m-auto text-primary"></i></div>
-                            <h3>Reliable</h3>
-                            <p class="lead mb-0">We believe in building things to last, but if our equipment does break you'll be able to replace it easily </p>
+                            <h3>Engagement</h3>
+                            <p class="lead mb-0">With personal challenges and competition with friends, your workouts will be as fun as playing a sport</p>
                         </div>
                     </div>
                     <div class="col-lg-4">
                         <div class="features-icons-item mx-auto mb-0 mb-lg-3">
                             <div class="features-icons-icon d-flex"><i class="bi-diagram-3 m-auto text-primary"></i></div>
-                            <h3>Scalable</h3>
-                            <p class="lead mb-0">Have as many PTs as you want with our virtual PT class platform </p>
+                            <h3>Variety</h3>
+                            <p class="lead mb-0">Never get bored with the same old workout routine. Our device intelligently currates personalized workouts</p>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-
+        <!-- Image Showcases-->
+        <section class="showcase">
+                <div class="row g-0">
+                    <div class="col-lg-6 text-white showcase-img" style="background-image: url('assets/img/bg-showcase-2.jpg')"></div>
+                    <div class="col-lg-6 my-auto showcase-text">
+                        <h2>What it does</h2>
+                        <p class="lead mb-0">Working out should be something you look forward to. By automatically tracking your workouts for you, we provide a platform for you to monitor your progress, compete with friends, beat challenges, and reach your fitness goals</p>
+                    </div>
+                </div>
+                <div class="row g-0">
+                    <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('assets/img/bg-showcase-3.jpg')"></div>
+                    <div class="col-lg-6 order-lg-1 my-auto showcase-text">
+                        <h2>Easy to Use</h2>
+                        <p class="lead mb-0">By tapping your phone or gym card to the machine, your workout will be automatically be saved on your account</p>
+                    </div>
+                </div>
+            </div>
+        </section>
         <!-- Testimonials-->
         <section class="testimonials text-center bg-light">
             <div class="container">
